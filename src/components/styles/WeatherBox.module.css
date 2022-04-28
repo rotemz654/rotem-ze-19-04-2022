@@ -1,0 +1,48 @@
+.image {
+  width: 250px;
+  height: 250px;
+}
+.text {
+  /* font-size: 1rem; */
+}
+.box {
+  display: inline-table;
+  height: 200px;
+  width: 200px;
+  margin: 20px;
+  border: solid;
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+.boxdata {
+  margin: 20px;
+  display: inline-grid;
+  place-items: center;
+}
+.row {
+  display: flex;
+  /* margin: 10px; */
+}
+.fav {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+.main {
+  margin: 30px;
+  border: solid;
+  border-radius: 20px;
+}
+.icon {
+  font-size: 2.5rem !important;
+}
+
+.summary {
+  font-size: 2.5rem;
+  margin: 50px;
+}
+
+.rowitem {
+  /* align-items: center; */
+}

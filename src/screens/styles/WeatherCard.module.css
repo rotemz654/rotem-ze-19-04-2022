@@ -1,0 +1,80 @@
+.main {
+  margin: 30px;
+  border: solid;
+  border-radius: 20px;
+  font-size: 20px;
+}
+
+.currentweather {
+  margin-left: auto;
+  padding: 20px;
+  font-size: 25px;
+  text-align: center;
+}
+
+.list {
+  text-align: center;
+}
+
+.box {
+  display: inline-table;
+  height: 220px;
+  width: 220px;
+  margin: 20px;
+  border: solid;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.box:hover {
+  background-color: #5247307e;
+}
+
+.boxdata {
+  margin: 50px;
+  display: inline-grid;
+  place-items: center;
+}
+
+.row {
+  display: flex;
+}
+
+.fav {
+  display: flex;
+  align-items: center;
+  place-self: center;
+  text-align: center;
+}
+
+.icon {
+  width: 100px;
+}
+
+.favicon {
+  font-size: 3.5rem !important;
+  cursor: pointer;
+}
+
+.favgroup {
+  padding: 20px;
+  place-self: center;
+}
+
+.weathersummary {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+  animation: shake 2s infinite ease-in-out both;
+  animation-iteration-count: 1;
+}
+
+@keyframes shake {
+  0% {
+    transform: scale(0.5, 0.5);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
